@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1eb068a5-7b2c-46d0-a8eb-d21896011713" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1090/ValCacheProxy/FileServerProxyService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FileServerProxyService2.xsd" MetadataType="Schema" ID="279a9fdd-721e-40d9-b693-7cdfb63b875b" SourceId="1" SourceUrl="http://localhost:1090/ValCacheProxy/FileServerProxyService?xsd=xsd1" />
+    <MetadataFile FileName="FileServerProxyService1.xsd" MetadataType="Schema" ID="b02ff178-6fa5-47ac-b581-8c9d4dee4f84" SourceId="1" SourceUrl="http://localhost:1090/ValCacheProxy/FileServerProxyService?xsd=xsd2" />
+    <MetadataFile FileName="FileServerProxyService.xsd" MetadataType="Schema" ID="60b8739d-76f3-457f-9bd7-0880c8f5e106" SourceId="1" SourceUrl="http://localhost:1090/ValCacheProxy/FileServerProxyService?xsd=xsd0" />
+    <MetadataFile FileName="FileServerProxyService3.xsd" MetadataType="Schema" ID="b76455c2-34ee-43b1-87ae-3243c078ad41" SourceId="1" SourceUrl="http://localhost:1090/ValCacheProxy/FileServerProxyService?xsd=xsd3" />
+    <MetadataFile FileName="FileServerProxyService.disco" MetadataType="Disco" ID="43bb1be6-0ea5-474f-bd06-21a405aac3ff" SourceId="1" SourceUrl="http://localhost:1090/ValCacheProxy/FileServerProxyService?disco" />
+    <MetadataFile FileName="FileServerProxyService.wsdl" MetadataType="Wsdl" ID="72e2a823-65ef-4b0d-ae2a-57cef92fe51f" SourceId="1" SourceUrl="http://localhost:1090/ValCacheProxy/FileServerProxyService?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
